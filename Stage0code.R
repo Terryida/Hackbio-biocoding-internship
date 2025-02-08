@@ -3,7 +3,7 @@ details <- list(
   last_name = c("Maire", "Abid", "Imonte", "Isoah", "Ngala"),
   slack_username = c("Tyler", "Mahpara", "Perex", "Gracious", "Terry"),
   email = c("tam357a@gmail.com", "mahparaabid97@gmail.com", "imontepez@gmail.com", "isoahgracious@gmail.com", "terryngala9@gmail.com"),
-  hubby = c("Carpentry", "Enjoying nature", "Playing music", "Reading", "Travelling"),
+  hobby = c("Carpentry", "Enjoying nature", "Playing music", "Reading", "Travelling"),
   country = c("United States", "Pakistan", "Nigeria", "Nigeria", "Kenya"),
   discipline = c("Bioinformatics", "Biotechnology", "Biomedical Technology", "Microbiology", "Biochemistry"),
   programming_language = c("R", "R", "R", "R", "R")
