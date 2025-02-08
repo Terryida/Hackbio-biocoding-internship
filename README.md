@@ -1,1 +1,3 @@
 # Hackbio-biocoding-internship
+**Overview**
+The code creates a data frame from a list containing information about the members of Threonine-2 group. It captures details about our first names, last names, Slack usernames, email addresses, hobbies, countries, disciplines, and the programming language used. We first created a list named details is defined with 8 elements with each element containing a vector representing different characteristics of the interns. The list details was then used to create a data frame named Interns_data using the data.frame() function which was used to construct a table where each column corresponds to one of the elements in the list (details). The print() function was then used to display the contents of the Interns_data data frame.
