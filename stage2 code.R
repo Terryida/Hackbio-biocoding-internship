@@ -142,8 +142,7 @@ pie(aa_frequency,col=aa_frequency)
 # Glycine (Gly/G) is the amino acid with the shortest side chain, having an R-group consistent only of a single hydrogen. As a result, glycine is the only amino acid that is not chiral. Its small side chain allows it to readily fit into both hydrophobic and hydrophilic environments.This allows for greater flexibility in protein folding and enables it to fit into tight spaces within a protein structure that other amino acids cannot.
 # What can you say about the structural property and functional property of amino acids with more than 100 occurences.
 # Amino acids with more than 100 occurrences play crucial structural and functional roles: hydrophobic residues (A, F, I, L, V, W) stabilize protein cores, while flexible residues (G, P) influence loops and turns, and polar/charged residues (D, Q, R, S, T, Y) contribute to enzymatic activity and interactions. Functionally, these amino acids are essential for protein folding, stability, binding interactions, and post-translational modifications, making them critical for both structure and function.
-## Hackbio task 2.6
-##Transcriptomics
+## Hackbio task 2.6 Transcriptomics
 ##This is a processed RNAseq dataset involving reading in quantitated gene expression data from an RNA-seq experiment, exploring the data using base R functions and then interpretation. The dataset contains an experiment between a diseased cell line and diseased cell lines treated with compound X. The difference in expression change between the two health status is computed as Fold change to log 2 (Log2FC) and the significance of each is computed in p-value.
 ##Load the datasets
 Assignment = 'https://gist.githubusercontent.com/stephenturner/806e31fce55a8b7175af/raw/1a507c4c3f9f1baaa3a69187223ff3d3050628d4/results.txt'
@@ -185,8 +184,7 @@ head(Assignment1[order(Assignment1$pvalue) & Assignment1$diffexpressed == 'DOWN'
 # 3. LAMA2 (Laminin Subunit Alpha 2):encodes the alpha-2 chain of laminin, a protein essential for the structural scaffolding of basement membranes in various tissues.
 # 4. CAV2 (Caveolin 2): encodes caveolin-2, a protein integral to the formation of caveolae—small invaginations on the cell membrane involved in various cellular processes, including signal transduction, lipid regulation, and endocytosis.
 # 5. TNN (Tenascin N):encodes tenascin-N, an extracellular matrix glycoprotein involved in tissue development and repair. It plays a role in cell adhesion, migration, and proliferation, particularly within the nervous system and during wound healing.
-## Hackbio task 2.7
-##Public Health
+## Hackbio task 2.7 Public Health
 ##NHANES is a program run by the CDC to assess the health and nutritional status of adults and children in the US. It combines survey questions and physical examinations, including medical and physiological measurements and laboratory tests, and examines a representative sample of about 5,000 people each year. The data is used to determine the prevalence of diseases and risk factors, establish national standards, and support epidemiology studies and health sciences research. This information helps to develop public health policy, design health programs and services, and expand the nation's health knowledge.
 ##Load the datasets
 task = 'https://raw.githubusercontent.com/HackBio-Internship/public_datasets/main/R/nhanes.csv'
