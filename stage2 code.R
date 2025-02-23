@@ -1,8 +1,7 @@
-# Code for 2.3 Botany and plant science
+# Hackbio task 2.3 Botany and plant science
 #Some scientists are trying to engineer mutants for a crop to become resistant to a pesticide.They compared the metabolic response of the engineered mutants to the metabolic response of the wild type plants
 #The took readings after 8 and 24 hours
 # 1. Load and Orient the Dataset
-# ------------------------------
 file_path <- "C:/Users/tam35/Downloads/Pesticide_treatment_data.txt"
 # Load without specifying row.names
 data_raw <- read.table(file_path, header = TRUE, sep = "\t")
